@@ -6,7 +6,7 @@ app.get('/', function (req, res) {
 });
 
 var server = app.listen(10000, function () {
-  var host = server.address().address;
+  var host = server.address().address; // PULL
   var port = server.address().port;
 
   console.log(`Example app listening at http://${host}:${port}`);
